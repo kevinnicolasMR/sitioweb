@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: rgba(2, 1, 8, 0.966);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
 }
 
 
@@ -15,12 +16,19 @@ body{
     border-radius: 100px 0 0 0;
 }
 
+@media (max-width: 390px) {
+    .nav-center{
+        background-color: aliceblue;
+        width: 90%;
+        height: 180px;
+    }
+}
+
 
 .logo{
     margin: 15px 0 0px 20px;
     width: 130px;
     margin-left: 100px;
-
 }
 
 .nav-toggle{
